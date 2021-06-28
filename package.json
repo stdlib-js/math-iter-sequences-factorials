@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-factorials",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator which generates a sequence of factorials.",
   "license": "Apache-2.0",
   "author": {
