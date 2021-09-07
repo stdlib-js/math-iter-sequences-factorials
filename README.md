@@ -195,6 +195,20 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/iter/special/factorial`][@stdlib/math/iter/special/factorial]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the factorial function for each iterated value.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -257,6 +271,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [factorial-function]: https://en.wikipedia.org/wiki/Factorial
 
 [empty-product]: https://en.wikipedia.org/wiki/Empty_product
+
+<!-- <related-links> -->
+
+[@stdlib/math/iter/special/factorial]: https://github.com/stdlib-js/math-iter-special-factorial
+
+<!-- </related-links> -->
 
 </section>
 
