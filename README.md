@@ -32,10 +32,14 @@ The [factorial][factorial-function] function may be defined as the product
 
 <!-- <equation class="equation" label="eq:factorial_function" align="center" raw="n! = \prod_{k=1}^n k" alt="Factorial function definition"> -->
 
-<div class="equation" align="center" data-raw-text="n! = \prod_{k=1}^n k" data-equation="eq:factorial_function">
+```math
+n! = \prod_{k=1}^n k
+```
+
+<!-- <div class="equation" align="center" data-raw-text="n! = \prod_{k=1}^n k" data-equation="eq:factorial_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@aa77a2f6e76d2e9da5b49bffa45ee5167d6c16e1/lib/node_modules/@stdlib/math/iter/sequences/factorials/docs/img/equation_factorial_function.svg" alt="Factorial function definition">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,10 +47,14 @@ or according to the recurrence relation
 
 <!-- <equation class="equation" label="eq:factorial_recurrence_relation" align="center" raw="n! = \begin{cases}1 & \textrm{if } n = 0,\\(n-1)! \times n & \textrm{if } n > 1\end{cases}" alt="Factorial function recurrence relation"> -->
 
-<div class="equation" align="center" data-raw-text="n! = \begin{cases}1 &amp; \textrm{if } n = 0,\\(n-1)! \times n &amp; \textrm{if } n &gt; 1\end{cases}" data-equation="eq:factorial_recurrence_relation">
+```math
+n! = \begin{cases}1 & \textrm{if } n = 0,\\(n-1)! \times n & \textrm{if } n > 1\end{cases}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="n! = \begin{cases}1 &amp; \textrm{if } n = 0,\\(n-1)! \times n &amp; \textrm{if } n &gt; 1\end{cases}" data-equation="eq:factorial_recurrence_relation">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@aa77a2f6e76d2e9da5b49bffa45ee5167d6c16e1/lib/node_modules/@stdlib/math/iter/sequences/factorials/docs/img/equation_factorial_recurrence_relation.svg" alt="Factorial function recurrence relation">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -54,10 +62,14 @@ Following the convention for an [empty product][empty-product], in all definitio
 
 <!-- <equation class="equation" label="eq:zero_factorial" align="center" raw="0! = 1" alt="Zero factorial"> -->
 
-<div class="equation" align="center" data-raw-text="0! = 1" data-equation="eq:zero_factorial">
+```math
+0! = 1
+```
+
+<!-- <div class="equation" align="center" data-raw-text="0! = 1" data-equation="eq:zero_factorial">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@aa77a2f6e76d2e9da5b49bffa45ee5167d6c16e1/lib/node_modules/@stdlib/math/iter/sequences/factorials/docs/img/equation_zero_factorial.svg" alt="Zero factorial">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -67,14 +79,30 @@ Following the convention for an [empty product][empty-product], in all definitio
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences-factorials
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@deno/mod.js';
+var iterFactorialsSeq = require( '@stdlib/math-iter-sequences-factorials' );
 ```
 
 #### iterFactorialsSeq( \[options] )
@@ -156,7 +184,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@deno/mod.js';
+var iterFactorialsSeq = require( '@stdlib/math-iter-sequences-factorials' );
 
 // Create an iterator:
 var opts = {
@@ -195,7 +223,7 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/iter/special/factorial`][@stdlib/math/iter/special/factorial]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the factorial function for each iterated value.</span>
+-   <span class="package-name">[`@stdlib/math-iter/special/factorial`][@stdlib/math/iter/special/factorial]</span><span class="delimiter">: </span><span class="description">create an iterator which evaluates the factorial function for each iterated value.</span>
 
 </section>
 
@@ -210,7 +238,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -254,7 +282,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -278,7 +306,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/iter/special/factorial]: https://github.com/stdlib-js/math-iter-special-factorial/tree/deno
+[@stdlib/math/iter/special/factorial]: https://github.com/stdlib-js/math-iter-special-factorial
 
 <!-- </related-links> -->
 
