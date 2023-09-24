@@ -97,7 +97,7 @@ Following the convention for an [empty product][empty-product], in all definitio
 ## Usage
 
 ```javascript
-import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@esm/index.mjs';
+import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@v0.1.0-esm/index.mjs';
 ```
 
 #### iterFactorialsSeq( \[options] )
@@ -184,7 +184,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@esm/index.mjs';
+import iterFactorialsSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-factorials@v0.1.0-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
